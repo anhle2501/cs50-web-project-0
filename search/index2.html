@@ -18,18 +18,30 @@
         <img src="./image/image.jpg" alt="My Search" width="600" height="300" >
     
         
-            <form style="text-align: center;" action="https://www.google.com/images">
+            <!-- <form style="text-align: center;" action="https://www.google.com/images"></form>
                 <div>
                 <input type="text" name="q">
                 <br>
                 <input type="submit" value="Google Image Search">
                 </div>  
-            </form>
+            
             <br>
-            <form style="text-align: center;" action="https://google.com/doodles">
+            <form style="text-align: center;" action="https://google.com/doodles"></form>
                 <div>
                     <input type="submit" name=""value="I'm Feeling Lucky">
-                </div>
-                </form>
+                </div> -->
+
+        <form id="google"  action="https://google.com/images"></form>
+        <form id="doodles" action="https://google.com/doodles"></form>  
+
+            <div style="text-align: center;">
+                <input style="text-align: left;width: 40%; ;" type="text" name="q" form="google">
+            </div>  
+            <br>
+            <div style="text-align: center;"">
+            <input type="submit" form="google" value="Google Image Search">
+            <input type="submit" name=""value="I'm Feeling Lucky" form="doodles">
+            </div>
+        
     </body>
 </html>

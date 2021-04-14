@@ -15,28 +15,19 @@
         
         <p style="text-align: center">
         <img src="./image/image.jpg" alt="My Search" width="600" height="300" >
-    
         </p>
-            
-                <form style="text-align: center;" action="https://google.com/search">
-                    <div>
-                        <input type="text" name="q">
-                    </div>
-                    <br>
-                    <div>
-                        <input type="submit" value="Google Search">
-                    </div>
-                </form>
-                <br>
-                <form style="text-align: center;" action="https://google.com/doodles">
-                <div>
-                    <input type="submit" name=""value="I'm Feeling Lucky">
-                </div>
-                </form>
-    
+                
+        <form id="google"  action="https://google.com/search"></form>
+        <form id="doodles" action="https://google.com/doodles"></form>  
 
-            
+            <div style="text-align: center;">
+                <input style="text-align: left;width: 40%; ;" type="text" name="q" form="google">
+            </div>  
+             <br>
+            <div style="text-align: center;"">
+            <input type="submit" form="google" value="Google Search">
+            <input type="submit" name=""value="I'm Feeling Lucky" form="doodles">
+            </div>
         
-
     </body>
 </html>
